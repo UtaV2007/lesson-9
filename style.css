@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#flex {
+  display: flex;
+  margin: 33px auto;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #636060;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20.7px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+i {
+display: none !important;
+}
+
+#first {
+  background-image: url("/images/Rectangle 1.png");
+  background-color: #cccccc;
+  height: 64vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 99vw;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 79px;
+}
+
+#big {
+  margin: 84px  10vw 140px;
+  display: flex;
+}
+
+p {
+  font-weight: 400;
+  color: white;
+  font-size: 19px;
+}
+
+#small1 {
+  width: 215px;
+  margin-right: 83px;
+}
+
+h2 {
+  color: #636060;
+  font-weight: 400;
+  font-size: 17px;
+}
+h3 {
+  color: #010101;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 37px;
+}
+
+span {
+  color: #636060;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#small2 {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 700px;
+}
+
+.div {
+  width: 286px;
+}
+
+.head {
+  font-weight: 400;
+  font-size: 19px;
+  color: #343232;
+  margin: 23px 0 9px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #636060;
+}
+@media screen and (max-width: 1024px) {
+   #small2 {
+    width: 286px;
+  }
+  #big {
+    height: 1900px;
+    justify-content: space-around;
+ }
+}
+
+@media screen and (max-width: 813px) {
+ 
+  i {
+    display: inline-block !important;
+    font-size: 24px !important;
+  }
+
+  a {
+    display: none !important;
+    text-decoration: none;
+    color: #636060;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.7px;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 10vw;
+  }
+  
+  #big {
+    margin: 84px  10vw 140px;
+    display: flex;
+  }
+  
+  #small1 {
+    width: 24vw;
+    margin-right: 0 !important; 
+  }
+  
+   .div {
+    width: 286px;
+  }
+  #big {
+    margin: 84px 7vw 140px;
+  }
+}
+
+
+
+@media screen and (max-width: 634px) {
+  #small1 {
+    display: none !important;
+  }
+}
